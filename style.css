@@ -97,8 +97,11 @@ a:hover{
     text-decoration: underline;
     font-size: clamp(0.75rem, 0.675rem + 0.375vw, 1.125rem);
 }
-.navbar-toggler-icon{
+.main-header .navbar-toggler-icon{
     background-image: url('icons/burger-icon.svg');
+}
+.navbar-toggler-icon{
+    background-image: url('icons/burger.svg');
 }
 .navbar-toggler:focus{
     box-shadow: none;
@@ -277,7 +280,7 @@ a:hover{
         opacity: 1;
     }
         
-    .collapse-dark {
+    .main-header .collapse-dark {
         background: var(--color-corp);
         opacity: 0;
         transition: all 0.3s ease;
@@ -355,6 +358,9 @@ a:hover{
     }
     .fs-title-2.fs-large{
         font-size: 30px;
+    }
+    .nav-link{
+        font-size: 18px;
     }
 }
 @media(max-width: 420px){
