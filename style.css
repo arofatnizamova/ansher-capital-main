@@ -238,6 +238,19 @@ a:hover{
     opacity: 1;
     color: var(--color-corp);
 }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    text-decoration: none;
+    background-color: var(--color-corp);
+}
+.bordered-corp{
+    border: 2px solid var(--color-corp);
+    border-radius: 5px;
+}
+.line-corp{
+    height: 3px;
+    background: var(--color-corp);
+    width: 100%;
+}
 /*breackpoints*/
 @media (min-width: 576px) {
     .modal-dialog {
